@@ -20,7 +20,7 @@ const Account: React.FC<IAccountProps> = (props) => {
     return (  
         <section className="account">
             <h4>Dein Girokonto</h4>
-            <h2>{props.accountValue} €</h2>
+            <h2>{props.accountValue.toFixed(2)} €</h2>
             <input value={props.inputValue} onChange={(e) => props.setInputValue(e.target.value)} type="number" placeholder="Gib einen Geldbetrag ein"/>
             <div className="account__buttons">
                 <button onClick={addValue}>Einzahlen</button>
