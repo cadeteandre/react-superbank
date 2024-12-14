@@ -7,6 +7,7 @@
     border-radius: 10px;
     background-color: #ffdab9;
     width: 50vw;
+    max-width: 500px;
     padding: 20px;
     color: #5a3d31;
 }
@@ -24,8 +25,9 @@
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    gap: 30px;
-    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 66%;
 }
 
 .account__buttons button {
@@ -33,11 +35,12 @@
     color: #5a3d31; 
     border: 2px solid #5a3d31; 
     border-radius: 8px; 
-    padding: 10px 20px; 
+    padding: 10px; 
     font-size: 16px; 
     cursor: pointer; 
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); 
     transition: all 0.2s ease;
+    width: 100px;
 }
 
 .account__buttons button:hover {

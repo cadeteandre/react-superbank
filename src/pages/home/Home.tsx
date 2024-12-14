@@ -6,7 +6,7 @@ import "./Home.css"
 const Home = () => {
     const [accountValue, setAccountValue] = useState<number>(0);
     const [inputValue, setInputValue] = useState<string>('');
-
+;
     return (  
         <main>
             <Kawaii accountValue={accountValue} />
